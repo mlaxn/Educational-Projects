@@ -1,0 +1,50 @@
+CSE4334/5334 Data Mining
+Fall 2018
+Programming Assignment grading rubrics for Assignment 2 (P2):
+
+For this assignment, the most important thing is to carefully read the instruction notebook and play with the code snippets. The concepts and ideas discussed in the instructions have all been discussed in lectures. Referring to the lecture slides/videos can help you if you face challenges in understanding the instructions. Once you understand the instructions and the code snippets, it won't be difficult to finish the tasks. 
+
+You will mainly be evaluated on whether you can accomplish the given tasks. Furthermore, 30% of the total score will be based on the accuracy of your model. This way, we believe you can achieve 70% of the score without much struggle and you may have fun trying to improve it. 
+
+(1) Basics : 45% 
+
+You will be evaluated on whether you can accomplish the given tasks. 
+
+1.1) Train mode : (20%) 
+1.2) Cross_val mode : (15%) 
+1.2) Predict mode : (10%) 
+
+Note that, in order to get these 50 points, your code must be doing training, cross validation, prediction correctly. It is NOT just about the format of your output. 
+
+(2) Execution efficiency: 10%
+
+10 points: your code finishes in seconds.
+5 points: your code is clearly much slower than majority of the submissions.
+0 points: your code will need to take hours to finish. 
+
+(3) Accuracy : 30% 
+
+How much can you improve your classifier's accuracy to outperform our baseline, which is not given to you but some of its results are in the "Sample Output" section of P2.ipynb? We will run the codes of all students and compare your classifiers' performance using a set of labelled sentences that have been hold out from you.
+
+30 points: Among the best performance in the class AND performance substantially better than results in "Sample Output"
+25 points: stronger performance than 85% of the class AND performance clearly stronger than results in "Sample Output"
+20 points: stronger performance than 70% of the class AND performance slightly stronger than results in "Sample Output"
+15 points: average performance in the class AND performance on par with results in "Sample Output"
+10 points: weaker performance than 70% of the class OR performance slightly weaker than results in "Sample Output"
+5  points: weaker performance than 85% of the class OR performance clearly weaker than results in "Sample Output"
+0  points: very poor performance 
+
+(4) Quality--clarity, organization, modularity, comments : 15%
+
+Follow good coding standards to make your program easy to understand by others and easy to maintain/extend. DO NOT provide documents in PDF/Word files. Instead, provide sufficient comments in your code and make it self-explaining. 
+
+High mark  : 15 points
+Medium mark : 10 points
+Low mark : 5 points
+Very poor: 0 points
+
+(5) Total score (100 points)
+
+Your score will be calculated from the individual break-ups using the following equation:
+
+Basics + Efficiency + Accuracy + Quality
